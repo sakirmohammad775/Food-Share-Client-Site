@@ -8,5 +8,11 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ['emerald'], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
+  }
+    
+  
+  
 }
 
